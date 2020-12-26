@@ -3,5 +3,5 @@ const path = require('path');
 module.exports = {
   rootDir: path.join(__dirname, '.'),
   watchPlugins: ['jest-watch-select-projects'],
-  setupFiles: ['jest-date-mock', require.resolve('./jest.setup.js')],
+  setupFiles: ['jest-date-mock', '<rootDir>/jest.setup.js'],
 };
