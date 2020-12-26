@@ -1,8 +1,8 @@
 module.exports = {
-  ...require('.jest-common.js'),
+  ...require('./scripts/jest-common.js'),
   projects: [
-    '.jest-lint.js',
-    '.jest-client.js',
-    '.jest-server.js',
+    './scripts/jest-lint.js',
+    './scripts/jest-client.js',
+    './scripts/jest-server.js',
   ],
 };

@@ -1,15 +1,11 @@
 {
   "name": "@frontendweekly/jest-preset-molle",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "jest-client.js",
-    "jest-common.js",
-    "jest-lint.js",
-    "jest-server.js",
-    "jest-setup.js",
+    "scripts",
     "jest-preset.js"
   ],
   "main": "jest-preset.js",
