@@ -4,6 +4,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "jest-client.js",
+    "jest-common.js",
+    "jest-lint.js",
+    "jest-server.js",
+    "jest-setup.js",
+    "jest-preset.js"
+  ],
+  "main": "jest-preset.js",
   "keywords": [],
   "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
   "license": "MIT",
