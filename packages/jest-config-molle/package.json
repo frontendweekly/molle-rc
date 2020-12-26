@@ -1,17 +1,28 @@
 {
-  "name": "jest-config-molle",
-  "version": "1.0.0",
+  "name": "@frontendweekly/jest-config-molle",
+  "version": "0.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frontendweekly/molle-rc.git",
+    "directory": "packages/jest-config-molle"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/frontendweekly",
+    "access": "public"
+  },
   "peerDependencies": {
     "jest": "*"
   },
   "devDependencies": {
-    "jest": "^26.6.3"
+    "eslint": "^7.16.0",
+    "jest": "^26.6.3",
+    "stylelint": "^13.8.0"
   },
   "dependencies": {
     "@testing-library/dom": "^7.29.0",

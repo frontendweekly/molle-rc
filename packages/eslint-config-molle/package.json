@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-molle",
-  "version": "1.0.0",
+  "name": "@frontendweekly/eslint-config-molle",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,15 @@
   "keywords": [],
   "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frontendweekly/molle-rc.git",
+    "directory": "packages/eslint-config-molle"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/frontendweekly",
+    "access": "public"
+  },
   "dependencies": {
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-chai-friendly": "^0.6.0",
@@ -23,9 +32,9 @@
     "eslint-plugin-testing-library": "^3.10.1"
   },
   "peerDependencies": {
-    "eslint": "^7.15.0",
-    "jest": "^26.6.0",
-    "prettier": "^2.2.0"
+    "eslint": "*",
+    "jest": "*",
+    "prettier": "*"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
