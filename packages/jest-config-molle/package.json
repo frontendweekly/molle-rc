@@ -1,0 +1,24 @@
+{
+  "name": "jest-config-molle",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
+  "license": "MIT",
+  "peerDependencies": {
+    "jest": "*"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^7.29.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "jest-date-mock": "^1.0.8",
+    "jest-runner-eslint": "^0.10.0",
+    "jest-runner-stylelint": "^2.3.7",
+    "jest-watch-select-projects": "^2.0.0"
+  }
+}

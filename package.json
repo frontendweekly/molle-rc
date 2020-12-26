@@ -1,0 +1,7 @@
+{
+  "name": "molle-rc",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
