@@ -1,6 +1,6 @@
 {
   "name": "@frontendweekly/jest-preset-molle",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
