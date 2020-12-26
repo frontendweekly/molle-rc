@@ -1,5 +1,5 @@
 module.exports = {
-  ...require('./jest-common'),
+  ...require.resolve('@frontendweekly/jest-preset-molle/scripts/jest-common.js'),
   displayName: 'client',
   testEnvironment: 'jest-environment-jsdom',
   testMatch: ['**/__client_tests__/**/*.js'],
