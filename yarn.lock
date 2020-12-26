@@ -439,9 +439,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@frontendweekly/jest-config-molle@workspace:packages/jest-config-molle":
+"@frontendweekly/jest-preset-molle@workspace:packages/jest-preset-molle":
   version: 0.0.0-use.local
-  resolution: "@frontendweekly/jest-config-molle@workspace:packages/jest-config-molle"
+  resolution: "@frontendweekly/jest-preset-molle@workspace:packages/jest-preset-molle"
   dependencies:
     "@testing-library/dom": ^7.29.0
     "@testing-library/jest-dom": ^5.11.6

@@ -1,5 +1,5 @@
 {
-  "name": "@frontendweekly/jest-config-molle",
+  "name": "@frontendweekly/jest-preset-molle",
   "version": "0.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:frontendweekly/molle-rc.git",
-    "directory": "packages/jest-config-molle"
+    "directory": "packages/jest-preset-molle"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/frontendweekly",
