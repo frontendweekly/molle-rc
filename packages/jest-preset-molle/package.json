@@ -32,6 +32,7 @@
     "@testing-library/dom": "^7.29.0",
     "@testing-library/jest-dom": "^5.11.6",
     "jest-date-mock": "^1.0.8",
+    "jest-fetch-mock": "^3.0.3",
     "jest-runner-eslint": "^0.10.0",
     "jest-runner-stylelint": "^2.3.7",
     "jest-watch-select-projects": "^2.0.0"
