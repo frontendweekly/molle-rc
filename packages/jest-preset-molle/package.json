@@ -1,10 +1,13 @@
 {
   "name": "@frontendweekly/jest-preset-molle",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "jest-preset.js",
+  "files": [
+    "jest-setup.js"
+  ],
   "keywords": [],
   "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
   "license": "MIT",
