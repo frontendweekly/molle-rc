@@ -1,0 +1,21 @@
+{
+  "name": "@frontendweekly/browserslist-config-molle",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frontendweekly/molle-rc.git",
+    "directory": "packages/browserslist-config-molle"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/frontendweekly",
+    "access": "public"
+  }
+}
