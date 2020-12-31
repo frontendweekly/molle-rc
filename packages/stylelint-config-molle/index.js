@@ -10,13 +10,24 @@ module.exports = {
     'stylelint-config-prettier',
   ],
   rules: {
+    'no-descending-specificity': [
+      true,
+      {
+        severity: 'warning',
+      },
+    ],
     'plugin/no-unsupported-browser-features': [
       true,
       {
         severity: 'warning',
       },
     ],
+    'plugin/stylelint-no-indistinguishable-colors':  [
+      true,
+      {
+        severity: 'warning',
+      },
+    ],
     'plugin/declaration-block-no-ignored-properties': true,
-    'plugin/stylelint-no-indistinguishable-colors': true,
   },
 };
