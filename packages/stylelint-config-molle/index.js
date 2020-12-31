@@ -1,8 +1,7 @@
 module.exports = {
   plugins: [
     'stylelint-no-unsupported-browser-features',
-    'stylelint-declaration-block-no-ignored-properties',
-    'stylelint-no-indistinguishable-colors',
+    'stylelint-declaration-block-no-ignored-properties'
   ],
   extends: [
     'stylelint-config-idiomatic-order',
@@ -17,12 +16,6 @@ module.exports = {
       },
     ],
     'plugin/no-unsupported-browser-features': [
-      true,
-      {
-        severity: 'warning',
-      },
-    ],
-    'plugin/stylelint-no-indistinguishable-colors':  [
       true,
       {
         severity: 'warning',
