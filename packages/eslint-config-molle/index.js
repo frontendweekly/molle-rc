@@ -14,6 +14,7 @@ module.exports = {
     'jest-dom',
     'testing-library',
     'cypress',
+    'sonarjs',
     'chai-friendly',
   ],
   extends: [
@@ -28,6 +29,7 @@ module.exports = {
     'plugin:jsdoc/recommended',
     'plugin:security/recommended',
     'plugin:compat/recommended',
+    'plugin:sonarjs/recommended',
     'prettier',
   ],
   rules: {
