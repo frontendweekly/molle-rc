@@ -1,6 +1,5 @@
 module.exports = {
   watchPlugins: ['jest-watch-select-projects'],
-  setupFiles: ['jest-date-mock', require.resolve('@frontendweekly/jest-preset-molle/jest-setup.js')],
   projects: [
     {
       displayName: 'eslint',
