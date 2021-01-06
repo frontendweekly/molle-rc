@@ -9,6 +9,7 @@ module.exports = {
     'stylelint-config-prettier',
   ],
   rules: {
+    'no-duplicate-selectors': false,
     'no-descending-specificity': [
       true,
       {
