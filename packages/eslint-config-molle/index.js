@@ -43,7 +43,7 @@ module.exports = {
     'node/no-unpublished-require': 'off',
     'node/no-unpublished-import': 'off',
     // Even though we target Node v14 (and v12 also supported modules), eslint
-    // still complains that modules are not yet suppoted.
+    // still complains that modules are not yet supported.
     'node/no-unsupported-features/es-syntax': [
       'error',
       {

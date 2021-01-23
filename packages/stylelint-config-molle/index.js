@@ -9,7 +9,12 @@ module.exports = {
     'stylelint-config-prettier',
   ],
   rules: {
-    'no-duplicate-selectors': false,
+    'no-duplicate-selectors': [
+      true,
+      {
+        severity: 'warning',
+      },
+    ],
     'no-descending-specificity': [
       true,
       {
