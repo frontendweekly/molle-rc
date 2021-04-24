@@ -458,19 +458,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frontendweekly/eslint-config-molle@workspace:packages/eslint-config-molle"
   dependencies:
-    eslint: ^7.24.0
-    eslint-config-prettier: ^8.1.0
+    eslint: ^7.25.0
+    eslint-config-prettier: ^8.2.0
     eslint-plugin-chai-friendly: ^0.6.0
     eslint-plugin-compat: ^3.9.0
     eslint-plugin-cypress: ^2.11.2
     eslint-plugin-jest: ^24.3.5
-    eslint-plugin-jest-dom: ^3.8.0
+    eslint-plugin-jest-dom: ^3.8.1
     eslint-plugin-jest-formatting: ^2.0.1
-    eslint-plugin-jsdoc: ^32.3.0
+    eslint-plugin-jsdoc: ^32.3.1
     eslint-plugin-node: ^11.1.0
+    eslint-plugin-regexp: ^0.9.0
     eslint-plugin-security: ^1.4.0
-    eslint-plugin-sonarjs: ^0.6.0
-    eslint-plugin-testing-library: ^4.0.0
+    eslint-plugin-sonarjs: ^0.7.0
+    eslint-plugin-testing-library: ^4.1.1
     jest: ^26.6.3
     prettier: ^2.2.1
   peerDependencies:
@@ -484,9 +485,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frontendweekly/jest-preset-molle@workspace:packages/jest-preset-molle"
   dependencies:
-    "@testing-library/dom": ^7.30.3
-    "@testing-library/jest-dom": ^5.11.10
-    eslint: ^7.24.0
+    "@testing-library/dom": ^7.30.4
+    "@testing-library/jest-dom": ^5.12.0
+    eslint: ^7.25.0
     jest: ^26.6.3
     jest-date-mock: ^1.0.8
     jest-fetch-mock: ^3.0.3
@@ -1812,7 +1813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^7.28.1, @testing-library/dom@npm:^7.30.3":
+"@testing-library/dom@npm:^7.28.1":
   version: 7.30.3
   resolution: "@testing-library/dom@npm:7.30.3"
   dependencies:
@@ -1828,9 +1829,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.11.10":
-  version: 5.11.10
-  resolution: "@testing-library/jest-dom@npm:5.11.10"
+"@testing-library/dom@npm:^7.30.4":
+  version: 7.30.4
+  resolution: "@testing-library/dom@npm:7.30.4"
+  dependencies:
+    "@babel/code-frame": ^7.10.4
+    "@babel/runtime": ^7.12.5
+    "@types/aria-query": ^4.2.0
+    aria-query: ^4.2.2
+    chalk: ^4.1.0
+    dom-accessibility-api: ^0.5.4
+    lz-string: ^1.4.4
+    pretty-format: ^26.6.2
+  checksum: 113225e873ec36739be2d0866b5108626253178c34727b51d6c04a046fea815450e40d0b1be63849dff46745043381e0b40fd03f8c1d5a447bc24ffde0f42ec9
+  languageName: node
+  linkType: hard
+
+"@testing-library/jest-dom@npm:^5.12.0":
+  version: 5.12.0
+  resolution: "@testing-library/jest-dom@npm:5.12.0"
   dependencies:
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
@@ -1840,7 +1857,7 @@ __metadata:
     css.escape: ^1.5.1
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: 25bf4cd9f6d49c87afe758ebc43ddcf9fb2a974bbf5f6e2979ed2056162ecc0547c396e4a47b6abf9bb646de4aedfb7b6da539cbae2c4a949d903ea396defaf3
+  checksum: 8bffa1c4113fbcdeb2aad1be48054ab46ee73da3b9b8a588e7e635e96f06ffe221689dfa494d2ac06520350ab7aa1fa2e2565aa30b02dd34c8d086072ba9ed57
   languageName: node
   linkType: hard
 
@@ -3143,6 +3160,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"comment-parser@npm:^1.1.2":
+  version: 1.1.5
+  resolution: "comment-parser@npm:1.1.5"
+  checksum: e9903b88f2760e94ad82328a1cbb8f722f424bfd7dd621f46b09749ee47288834c289b34f4e6ed7c14bef20a76a4b6badf9f0a717f81ded1a524ff840a453af6
+  languageName: node
+  linkType: hard
+
 "compare-func@npm:^2.0.0":
   version: 2.0.0
   resolution: "compare-func@npm:2.0.0"
@@ -4042,14 +4066,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "eslint-config-prettier@npm:8.1.0"
+"eslint-config-prettier@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "eslint-config-prettier@npm:8.2.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 409d3a071f8228d4c958a6a9be9d5ec2b357ce21b7b6cbb137096cade2c31f008a0a3c3533dee8979c0cd944f220a959710b30fd86f8b96f0ef1f4f557d740b3
+  checksum: 0fe60cc42dd84fd878ee437dfe73340ba8b18f41ba2538878c54ff15f24a6855bf7e048b36290022b21e0e050ee6cf61d66bfdf39bedb5ccc15c28997cda7016
   languageName: node
   linkType: hard
 
@@ -4103,16 +4127,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:^3.8.0":
-  version: 3.8.0
-  resolution: "eslint-plugin-jest-dom@npm:3.8.0"
+"eslint-plugin-jest-dom@npm:^3.8.1":
+  version: 3.8.1
+  resolution: "eslint-plugin-jest-dom@npm:3.8.1"
   dependencies:
     "@babel/runtime": ^7.9.6
     "@testing-library/dom": ^7.28.1
     requireindex: ^1.2.0
   peerDependencies:
     eslint: ">=6.8"
-  checksum: 85d289b442ded7cb28634c2d8e2d4af5b5808632af47a39251f90a0e9d129727f68b706bc4cb19b52ec1e28592282006ab5b039f539200d5682430bd38b11565
+  checksum: e23ab148a76da2c421346195b3633bdfd504b56c0c0159fa69a09818f7e1d0179ca1aa7214839f555e76fc46a9a01005423b70fca707b4acccf4e58addf732ed
   languageName: node
   linkType: hard
 
@@ -4140,9 +4164,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:^32.3.0":
-  version: 32.3.0
-  resolution: "eslint-plugin-jsdoc@npm:32.3.0"
+"eslint-plugin-jsdoc@npm:^32.3.1":
+  version: 32.3.1
+  resolution: "eslint-plugin-jsdoc@npm:32.3.1"
   dependencies:
     comment-parser: 1.1.2
     debug: ^4.3.1
@@ -4153,7 +4177,7 @@ __metadata:
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
-  checksum: f4665eb3c4b32d139342028a9f0d96b095214778a3e32b8a1461d397674954c4d36a0c019f11eefcfa64202c2ad71ecf558e5a553d8a3827b3ccfef2391a741c
+  checksum: 4aa8019e401550117ea0e1bd4c8ece4d7e2598b38c974e1efe61b84b7a25a3dce541374109dab7acb5a54b3248b23916b021adb4300189694b79d874be585c9a
   languageName: node
   linkType: hard
 
@@ -4173,6 +4197,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-regexp@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "eslint-plugin-regexp@npm:0.9.0"
+  dependencies:
+    comment-parser: ^1.1.2
+    eslint-utils: ^2.1.0
+    jsdoctypeparser: ^9.0.0
+    refa: ^0.7.1
+    regexp-ast-analysis: ^0.1.1
+    regexpp: ^3.1.0
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 41fe6867406f11343bfb693db06629fd0171802fb2897345c7f724547b9536640b91ed1b040bc5bb18c71ed4be3c5518b0d0d24691bbfcf52267eee4af977a9a
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-security@npm:^1.4.0":
   version: 1.4.0
   resolution: "eslint-plugin-security@npm:1.4.0"
@@ -4182,23 +4222,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "eslint-plugin-sonarjs@npm:0.6.0"
+"eslint-plugin-sonarjs@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "eslint-plugin-sonarjs@npm:0.7.0"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: cbc964d66328aadf352bfd75eed163e6729f891d6c7d16d971161f4e90e03541f66338ea801f7c1bbb20f11b58ddf2aac7ab877a97b02102f1511f50a5a13e38
+  checksum: 32ebd356cff0912c19f359545aade803f0dfa3e93d605b3c1265a3aa3adb2f743eb194f2b696cf7c0d8db3d1c3a524538c5633da703d23d1a6208450e2cf336c
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-testing-library@npm:4.0.0"
+"eslint-plugin-testing-library@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "eslint-plugin-testing-library@npm:4.1.1"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.21.0
   peerDependencies:
     eslint: ^7.5.0
-  checksum: 2ac0b257ee060c6f56b484b42f99167011cd87fe74bf24f1d17c8eff14c99fa193f20511a1ae273d19f4a1e708af251372adc92c4158f661b2fcf1bc17dec3a8
+  checksum: 7572ad0178c0d5b32d2bb195cdd2dc4abc99c3b2d1988abe7336ebd6159075b8b30ed2dabab7c94bc54faf7d2d66951fc7942607bd252700f1e6a412d54facd6
   languageName: node
   linkType: hard
 
@@ -4235,9 +4275,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.24.0":
-  version: 7.24.0
-  resolution: "eslint@npm:7.24.0"
+"eslint@npm:^7.25.0":
+  version: 7.25.0
+  resolution: "eslint@npm:7.25.0"
   dependencies:
     "@babel/code-frame": 7.12.11
     "@eslint/eslintrc": ^0.4.0
@@ -4278,7 +4318,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 8130aacc3698a730ba8fa10ac9e1436151181c34cad265c21c97708e62dba714b6f3cc4cb7a1d343918da3d35a5913505ccf53cfbdc1fa8d62d326b7e35b7aae
+  checksum: 6e1782e2264ebf987504746ee82e996bf0ef2c29a2eaea869b54cb8aa1eaf10945b1d563618515e65ac934ca626f3609282127773f45868ad4a98744458a3c62
   languageName: node
   linkType: hard
 
@@ -8968,6 +9008,15 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"refa@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "refa@npm:0.7.1"
+  dependencies:
+    regexpp: ^3.1.0
+  checksum: bf890bdf06e3dfa788a03efda0be5163d405ac9b350c6a080551ebf56655ba3b3f9763f06bf1a194c0bf336c8e1040c24bdcebf32c3a37f4c28e53f089e9ea1f
+  languageName: node
+  linkType: hard
+
 "regenerator-runtime@npm:^0.13.4":
   version: 0.13.8
   resolution: "regenerator-runtime@npm:0.13.8"
@@ -8982,6 +9031,16 @@ fsevents@^2.1.2:
     extend-shallow: ^3.0.2
     safe-regex: ^1.1.0
   checksum: 3d6d95b4fda3cabe7222b3800876491825a865ae6ca4c90bb10fd0f6442d0c57d180657bb65358b4509bdd1cecad1bd2d23e7d15a69f9c523f501cc4431b950b
+  languageName: node
+  linkType: hard
+
+"regexp-ast-analysis@npm:^0.1.1":
+  version: 0.1.3
+  resolution: "regexp-ast-analysis@npm:0.1.3"
+  dependencies:
+    refa: ^0.7.1
+    regexpp: ^3.1.0
+  checksum: a93497f4ae6f76557ce255958616a1e2e0ef5bf8d5626ff3062ccfca038ff22ef45430b332e9b0c699662db1a99c623b2138328e77a132fdf6549ff19f374405
   languageName: node
   linkType: hard
 
